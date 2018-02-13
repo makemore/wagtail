@@ -50,6 +50,7 @@ def register_images_menu_item():
 def editor_js():
     js_files = [
         static('wagtailimages/js/image-chooser.js'),
+        static('wagtailimages/js/multiple-image-chooser.js'),
     ]
     js_includes = format_html_join(
         '\n', '<script src="{0}"></script>',
