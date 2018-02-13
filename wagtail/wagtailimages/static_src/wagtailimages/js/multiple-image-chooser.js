@@ -1,4 +1,4 @@
-  function createMultipleImageChooser(id) {
+function createMultipleImageChooser(id) {
   alert("some shit");
   var chooserElement = $('#' + id + '-chooser');
     var previewImage = chooserElement.find('.preview-image img');
